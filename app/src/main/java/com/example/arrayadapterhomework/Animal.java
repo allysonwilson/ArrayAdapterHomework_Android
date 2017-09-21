@@ -5,19 +5,19 @@ package com.example.arrayadapterhomework;
  */
 
 public class Animal {
-    private int ranking;
+    private int rank;
     private String species;
     private String favouriteFood;
 
-    public Animal(Integer ranking, String species, String favouriteFood) {
-        this.ranking = ranking;
+    public Animal(Integer rank, String species, String favouriteFood) {
+        this.rank = rank;
         this.species = species;
         this.favouriteFood = favouriteFood;
     }
 
 
-    public int getRanking() {
-        return ranking;
+    public int getRank() {
+        return rank;
     }
 
     public String getSpecies() {
